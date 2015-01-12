@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C94b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Tip_Tap" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="$" textAlignment="right" minimumFontSize="17" id="38q-Ae-RRP">
+                                <rect key="frame" x="20" y="183" width="280" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="48"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="onEditingChanged:" destination="vXZ-lx-hvc" eventType="editingChanged" id="0Lm-8s-8uv"/>
+                                </connections>
+                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="DnW-K6-YkA">
+                                <rect key="frame" x="20" y="299" width="208" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="15%"/>
+                                    <segment title="20%"/>
+                                    <segment title="25%"/>
+                                </segments>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="onEditingChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="h71-sF-QbE"/>
+                                </connections>
+                            </segmentedControl>
+                            <view contentMode="scaleToFill" id="21W-Qz-JtS">
+                                <rect key="frame" x="0.0" y="352" width="320" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="2" id="jr4-fi-FFx">
+                                        <rect key="frame" x="20" y="100" width="24" height="17"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="1" id="AXc-AH-WQ4">
+                                        <rect key="frame" x="20" y="42" width="12" height="17"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="3" id="dqb-rb-iEY">
+                                        <rect key="frame" x="20" y="145" width="36" height="17"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="4" id="JVz-Sg-Xht">
+                                        <rect key="frame" x="20" y="177" width="48" height="17"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.099446661838740388" green="0.32828282828282829" blue="0.090246814151165436" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 People" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2wi-XC-KhM">
+                                <rect key="frame" x="20" y="438" width="280" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="36"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 People" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iQr-yZ-Tgw">
+                                <rect key="frame" x="20" y="490" width="280" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4 People" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="t7h-QB-x5v">
+                                <rect key="frame" x="20" y="528" width="280" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Person" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="itv-bg-mZ4">
+                                <rect key="frame" x="20" y="372" width="280" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="48"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.0" green="1" blue="0.072572277579999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$20" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aBH-Tc-r1T">
+                                <rect key="frame" x="164" y="302" width="136" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.0" green="1" blue="0.072572277579999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20206987084681385" green="0.7526436237373737" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="BYx-kR-sYV" appends="YES" id="4xi-Kz-mVS"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="billField" destination="38q-Ae-RRP" id="Xw3-Qn-Z3S"/>
+                        <outlet property="tipControl" destination="DnW-K6-YkA" id="6bJ-PH-Qbr"/>
+                        <outlet property="tipLabel" destination="aBH-Tc-r1T" id="cFF-fQ-3h8"/>
+                        <outlet property="totalLabel" destination="itv-bg-mZ4" id="yaM-r5-CLI"/>
+                        <outlet property="totalLabelFour" destination="t7h-QB-x5v" id="69a-96-ZW0"/>
+                        <outlet property="totalLabelThree" destination="iQr-yZ-Tgw" id="wNc-dx-yqS"/>
+                        <outlet property="totalLabelTwo" destination="2wi-XC-KhM" id="80X-gU-344"/>
+                        <outlet property="viewBackground" destination="21W-Qz-JtS" id="At9-by-aKH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="BYx-kR-sYV">
+                    <connections>
+                        <action selector="onTap:" destination="vXZ-lx-hvc" id="Tjh-Wc-4UQ"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="241" y="328"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="12" height="17"/>
+        <image name="2" width="24" height="17"/>
+        <image name="3" width="36" height="17"/>
+        <image name="4" width="48" height="17"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
