@@ -9,4 +9,4 @@ Additional Tasks:
 - Added splash screen and app icon
 
 GIF walkthrough of all required and optional stories (using LiceCap)
-![Walkthrough](http://cl.ly/image/0W3G421t0m18)
+![Walkthrough](https://s3.amazonaws.com/f.cl.ly/items/3t0E3w2U0K0Q0I1T2Y2Y/tiptap.gif)
