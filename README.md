@@ -1,5 +1,5 @@
 # Description
-Tip Calculator (TipTap) is a tiny iOS app prepared for the CodePath assignment in order to qualify for iOS for Designers course starting in February.
+Tip Calculator (TipTap) is a tiny iOS app prepared for the CodePath assignment in order to qualify for iOS for Designers course starting on February 9th.
 
 # Time Spent on the Assignment
 8 Hours
