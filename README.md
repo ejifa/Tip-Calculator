@@ -1,4 +1,5 @@
 Time Spent on the Assignment:
+
 8 Hours
 
 Additional Tasks:
